@@ -11,10 +11,10 @@ class Song {
     }
 }
 
-public class PlaylistLagu {
+public class Playlist {
     private Song head;
 
-    public PlaylistLagu() {
+    public Playlist() {
         this.head = null;
     }
 
@@ -46,7 +46,7 @@ public class PlaylistLagu {
     }
 
     public static void main(String[] args) {
-        PlaylistLagu myPlaylist = new PlaylistLagu();
+        Playlist myPlaylist = new Playlist();
 
         myPlaylist.addSong("Song 1");
         myPlaylist.addSong("Song 2");
