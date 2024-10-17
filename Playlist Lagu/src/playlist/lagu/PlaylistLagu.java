@@ -47,9 +47,9 @@ public class Playlist {
     public static void main(String[] args) {
         Playlist myPlaylist = new Playlist();
 
-        myPlaylist.addSong("Song 1");
-        myPlaylist.addSong("Song 2");
-        myPlaylist.addSong("Song 3");
+        myPlaylist.addSong("Dhyo Haw - Pelangi Baruku");
+        myPlaylist.addSong("Feby Putri - Runtuh");
+        myPlaylist.addSong("Bernadya - Satu Bulan");
 
         System.out.println("Playlist:");
         myPlaylist.displayPlaylist();
